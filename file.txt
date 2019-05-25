@@ -5,7 +5,3 @@
 2018-06-19 09:41 C recommends D
 2018-06-23 09:41 B recommends D
 2018-06-25 09:41 D accepts
-2018-06-25 09:41 D recommends E
-2018-06-25 09:41 E accepts
-2018-06-25 09:41 E recommends F
-2018-06-25 09:41 F accepts
