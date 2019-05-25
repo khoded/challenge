@@ -11,5 +11,11 @@ router.get('/', function(req, res, next) {
 
 			// console.log(b);
 			// res.send(b);
-			
+			res.render('index', { reward: JSON.stringify(b)  , title : "Customer Review System" });
+		}
+	);
+
+
+   
+});
 module.exports = router;
