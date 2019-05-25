@@ -93,7 +93,7 @@ router.post('/upload',function(req,res, next){
 			}
 			// console.log(b);
 			// res.send(b);
-			res.render('index', { reward: JSON.stringify(b)  , title : "Customer Review System" });
+			res.render('index', { reward: JSON.stringify(b)  , title : "Customer Reward System" });
 		}
 	);
 
