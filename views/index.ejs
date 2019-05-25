@@ -27,7 +27,25 @@
     </div>
   </nav>
 
-  
+  <div class="container text-center">
+      <div class="col-sm-12">
+        <div class="form">
+          <h1>Upload input data txt file</h1>
+              <form action="upload" enctype="multipart/form-data" method="POST">
+                  <div class="inner-wrap">
+                  <label><input type="file" id="" name="inputFile" /></label>
+                  <div class="button-section">
+                    <br>
+                    <input type="submit" name="Upload" value="Upload Input Data"/>
+                  </div>
+                </div>
+            </div>
+          </form>
+          <div>
+          <p><%= reward %></p>  
+          </div>
+        </div>
+  </div>
 </body>
 </html>
 
